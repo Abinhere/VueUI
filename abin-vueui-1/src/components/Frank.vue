@@ -3,3 +3,4 @@
         My first component!
     </div>
 </template>
+
