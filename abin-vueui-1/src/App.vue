@@ -7,8 +7,9 @@ import { provide, ref } from 'vue'
 export default {
   name: 'App',
   setup() {
-    const activeVisible = ref(false)
-    provide ('xxx',activeVisible)
+    const width = document.documentElement.clientWidth;
+    const activeVisible = ref(width <= 300 ? false:true);
+    provide ('activeVisible',activeVisible)
   }
 }
 </script>
