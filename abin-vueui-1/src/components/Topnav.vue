@@ -25,6 +25,5 @@
             margin: 0 1em;
         }
     }
-    border: 1px solid red;
 }
 </style>
