@@ -62,7 +62,7 @@ export default {
         }
     }
     > main{
-        background: palegoldenrod;
+        background:white;
         flex: 8;
         margin-left: auto;
         overflow-y: auto;

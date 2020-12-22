@@ -20,6 +20,7 @@ export default {
 
 <style lang="scss" scoped>
 .banner{
+    text-align: center;
     background:plum;
     border-radius: 0 0 50% 50%;
     > .actions{
