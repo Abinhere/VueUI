@@ -1,6 +1,8 @@
 <template>
     <div>
-        <Switch :value="y" @input="y = $event"/>
+        <Switch v-model:value="y"/>
+        <!-- 等价于 -->
+        <!-- <Switch :value="y" @update:value="y = $event"/> -->
     </div>
 </template>
 
