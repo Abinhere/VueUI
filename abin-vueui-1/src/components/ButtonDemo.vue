@@ -4,8 +4,15 @@
     </div>
     <h1>示例1</h1>
     <div>
-        <Button @click="onClick" @focus="onClick" @mouseover="onClick">
-            哇嘎雷共
+        <Button>哇嘎</Button>
+        <Button theme="button">
+            哇嘎
+        </Button>
+        <Button theme="link">
+            哇嘎
+        </Button>
+        <Button theme="text">
+            哇嘎
         </Button>
     </div>
 </template>
