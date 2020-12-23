@@ -14,14 +14,19 @@ export default {
         size:{
             type:String,
             default:"normal",
+        },
+        level:{
+            type:String,
+            default:"normal"
         }
     },
     setup(props){
-        const {theme,size} = props;
+        const {theme,size,level} = props;
         const classes = computed(()=>{
             return {
                 [`gulu-theme-${theme}`]: theme,
                 [`gulu-size-${size}`]: size,
+                [`gulu-level-${level}`]: level,
             };
         });
         return { classes };
@@ -33,6 +38,7 @@ $h:32px;
 $border-color:#d9d9d9;
 $color:#333;
 $blue:#40a9ff;
+$red:red;
 $radius:4px;
 .gulu-button{
     box-sizing: border-box;
@@ -100,6 +106,24 @@ $radius:4px;
             font-size: 12px;
             height: 24px;
         }
+        &.gulu-level-main{
+            color:$blue;
+            &:hover,
+            &:focus{
+                color: darken($blue,10%);
+                border-color: darken($blue,10%) ;
+
+            }
+        }
+        &.gulu-level-danger{
+            color:$red;
+            &:hover,
+            &:focus{
+                color: darken($red,10%);
+            }
+        }
     }
+    
+   
 }
 </style>

@@ -43,6 +43,15 @@
             哇嘎
         </Button>
     </div>
+    <div>
+        <Button size="big" level="main" theme="button">
+            哇嘎
+        </Button>
+        <Button theme="button">哇嘎</Button>
+        <Button size="small" level="danger" theme="button">
+            哇嘎
+        </Button>
+    </div>
 </template>
 <script lang="ts">
 import Button from '../lib/Button.vue'
