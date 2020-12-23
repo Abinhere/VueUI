@@ -15,6 +15,16 @@
             哇嘎
         </Button>
     </div>
+    <h1>示例2</h1>
+    <div>
+        <Button size="big">
+            哇嘎
+        </Button>
+        <Button>哇嘎</Button>
+        <Button size="small">
+            哇嘎
+        </Button>
+    </div>
 </template>
 <script lang="ts">
 import Button from '../lib/Button.vue'
