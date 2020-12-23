@@ -66,6 +66,14 @@ $radius:4px;
         &:hover,&:focus{
             color:lighten($blue,10%);
         }
+        &.gulu-size-big{
+            font-size: 24px;
+            height: 48px;
+        }
+        &.gulu-size-small{
+            font-size: 12px;
+            height: 24px;
+        }
     }
     &.gulu-theme-text{
         border-color: transparent;
@@ -74,6 +82,14 @@ $radius:4px;
         &:hover,&:focus{
             background: darken(white,5%);
         }
+        &.gulu-size-big{
+            font-size: 24px;
+            height: 48px;
+        }
+        &.gulu-size-small{
+            font-size: 12px;
+            height: 24px;
+        }
     }
     &.gulu-theme-button{
         &.gulu-size-big{
@@ -81,8 +97,8 @@ $radius:4px;
             height: 48px;
         }
         &.gulu-size-small{
-            font-size: 8px;
-            height: 16px;
+            font-size: 12px;
+            height: 24px;
         }
     }
 }
